@@ -26,7 +26,7 @@ width: 94%;
 }
 
 iframe{
-    width: 439px;
+    min-width: 439px;
     height: 319px;
     
     border: 2px solid red;
@@ -48,6 +48,7 @@ h5{
 
 body, html,header, main,nav,footer{
 width: 100%;
+min-width: 470px;
 
 }
 
@@ -158,6 +159,7 @@ footer{
     
     background-color: black;
     margin-top: 20px;
+    min-width: 470px;
 }
 
 .certifcados > h3 {
@@ -175,6 +177,7 @@ footer{
 .serviçps{
     background-color: black;
     margin-top: 20px;
+    min-width: 470px;
 }
 
 .serviçps > h3 {
@@ -192,12 +195,14 @@ footer{
     background-color: black;
     margin-top: 20px;
     padding: 0px;
-    width: 100%;
+    min-width: 470px;
+    
 }
 
 .contato > h3 {
     text-decoration: none;
     color:rgba(0, 0, 0, 0.61) ;
+    text-align: center;
     color: white ;
     font-family: var(--fonte-tex);
     font-size: 16px;
