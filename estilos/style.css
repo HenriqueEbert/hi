@@ -160,6 +160,7 @@ footer{
     background-color: black;
     margin-top: 20px;
     min-width: 480px;
+    width: 100%;
 }
 
 .certifcados > h3 {
@@ -178,6 +179,7 @@ footer{
     background-color: black;
     margin-top: 20px;
     min-width: 480px;
+    width: 100%;
 }
 
 .serviçps > h3 {
@@ -196,6 +198,7 @@ footer{
     margin-top: 20px;
     padding: 0px;
     min-width: 480px;
+    width: 100%;
     
 }
 
