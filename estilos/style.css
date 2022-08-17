@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+:root{
+
+    --fonte-desteque: 'Bebas Neue', cursive;
+    --font-texto: 'Oleo Script Swash Caps', cursive;
+    --fonte-text: 'Pacifico', cursive;
+    --fonte-tex: 'Silkscreen', cursive;
+     }
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+iframe{
+width: 94%;
+}
+
+iframe{
+    width: 439px;
+    height: 319px;
+    
+    border: 2px solid red;
+
+}
+
+h3{
+    margin-left: 0.5%;
+    color: black;
+    font-family: var(--fonte-desteque);
+}
+
+h5{
+    margin-left: 0.5%;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+
+
+body, html,header, main,nav,footer{
+width: 100%;
+
+}
+
+#top {
+text-align: center;
+
+  background-color: black;
+  object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+}
+
+
+.img{
+    width: 250spx;
+    height: 250px;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-radius: 50%;
+
+    }
+
+    .inf{
+        
+        
+        margin-left: 3%;
+        margin-top: 10%;
+        font-family: var(--fonte-text);
+        
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: cyan;
+        
+    }
+
+    .certi{
+        color: black;
+        font-family: var(--fonte-text);
+    }
+
+
+    .menu{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .imagens{
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+
+.container{
+    display: flex;
+}
+
+    .manu, .cabo{
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 50%;
+        width: 250px;
+    }
+
+ .valor{
+margin-top: 80px;
+margin-left: 5%;
+ }
+
+
+ .redes-scoiais{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.redes{
+margin-left: 1%;
+margin-top: 25px;
+}
+
+.link {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link :hover{
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+}
+
+
+footer{
+    
+    background-color: black;
+    color: white;
+    bottom: 0px; 
+    padding: 2px;
+    font-family: var(--fonte-desteque);
+    text-align: center;
+
+}
+
+.certifcados{
+    
+    background-color: black;
+    margin-top: 20px;
+}
+
+.certifcados > h3 {
+    
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    color: white ;
+    text-align: center;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.serviçps{
+    background-color: black;
+    margin-top: 20px;
+}
+
+.serviçps > h3 {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    color: white ;
+    text-align: center;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.contato{
+    background-color: black;
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+}
+
+.contato > h3 {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    color: white ;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
